@@ -32,5 +32,4 @@ export const removeItemFromCart = (cartItems, cartItemToRemove) => {
     : cartItem
   )
 
-  return [...cartItems, {...cartItemToRemove, quantity: 1}];
 };
